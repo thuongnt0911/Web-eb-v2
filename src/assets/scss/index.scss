@@ -1,0 +1,17 @@
+// Library
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Share common
+@import './share/_reset.scss';
+@import './share/_variables.scss';
+@import './share/_mixin.scss';
+@import './share/_common.scss';
+
+//Layout common
+@import './components/_header.scss';
+
+// Pages
+@import './pages/_home.scss';
+
